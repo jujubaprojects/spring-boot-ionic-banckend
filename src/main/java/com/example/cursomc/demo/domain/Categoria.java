@@ -26,11 +26,11 @@ public class Categoria implements Serializable
 		
 	}
 	
-	public Categoria(Integer pID, String pNome)
+	public Categoria(Integer id, String nome)
 	{
 		super();
-		this.id = pID;
-		this.nome = pNome;
+		this.id = id;
+		this.nome = nome;
 	}
 	
 	
@@ -59,7 +59,7 @@ public class Categoria implements Serializable
 		return true;
 	}
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 	public void setId(Integer id) {
