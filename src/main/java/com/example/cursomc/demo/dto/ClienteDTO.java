@@ -7,7 +7,6 @@ import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
 
-import com.example.cursomc.demo.domain.Categoria;
 import com.example.cursomc.demo.domain.Cliente;
 
 public class ClienteDTO implements Serializable
