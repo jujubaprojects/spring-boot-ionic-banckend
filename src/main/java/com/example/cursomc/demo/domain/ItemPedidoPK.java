@@ -19,7 +19,8 @@ public class ItemPedidoPK implements Serializable
 	@JoinColumn(name="produto_id")
 	private Produto produto;
 	
-	public Pedido getPedido() {
+	public Pedido getPedido() 
+	{
 		return pedido;
 	}
 	public void setPedido(Pedido pedido) {
